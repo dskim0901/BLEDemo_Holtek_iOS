@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00A04D8C1DD3269A00F8E2EB /* HomeViewCtrl.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00A04D8B1DD3269A00F8E2EB /* HomeViewCtrl.xib */; };
+		00A04D8E1DD5785800F8E2EB /* dropdown1.png in Resources */ = {isa = PBXBuildFile; fileRef = 00A04D8D1DD5785800F8E2EB /* dropdown1.png */; };
+		00A8743F1E01419F00A4EA15 /* btn_ble_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 00A8743E1E01419F00A4EA15 /* btn_ble_on.png */; };
+		37381BEE1DC2E7E900743226 /* btn_ble_off.png in Resources */ = {isa = PBXBuildFile; fileRef = 37381BE71DC2E7E900743226 /* btn_ble_off.png */; };
+		37381BF01DC2E7E900743226 /* button_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 37381BE91DC2E7E900743226 /* button_normal.png */; };
+		37381BF11DC2E7E900743226 /* button_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 37381BEA1DC2E7E900743226 /* button_pressed.png */; };
+		37381BF21DC2E7E900743226 /* lamp_off.png in Resources */ = {isa = PBXBuildFile; fileRef = 37381BEB1DC2E7E900743226 /* lamp_off.png */; };
+		37381BF31DC2E7E900743226 /* lamp_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 37381BEC1DC2E7E900743226 /* lamp_on.png */; };
+		37381BF41DC2E7E900743226 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 37381BED1DC2E7E900743226 /* logo.png */; };
+		3751BAF71DCAE37D00C5AF13 /* btn_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 3751BAF61DCAE37D00C5AF13 /* btn_bg.png */; };
+		378E273D1DC0A1C4005095AD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 378E273C1DC0A1C4005095AD /* main.m */; };
+		378E27401DC0A1C4005095AD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 378E273F1DC0A1C4005095AD /* AppDelegate.m */; };
+		378E27481DC0A1C4005095AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 378E27471DC0A1C4005095AD /* Assets.xcassets */; };
+		378E274B1DC0A1C4005095AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 378E27491DC0A1C4005095AD /* LaunchScreen.storyboard */; };
+		378E27551DC0A247005095AD /* HomeViewCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 378E27531DC0A247005095AD /* HomeViewCtrl.m */; };
+		378E275F1DC0A2B9005095AD /* CTBLEManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 378E275C1DC0A2B9005095AD /* CTBLEManager.m */; };
+		378E27631DC0A743005095AD /* BLETabCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 378E27611DC0A743005095AD /* BLETabCell.m */; };
+		378E27641DC0A743005095AD /* BLETabCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 378E27621DC0A743005095AD /* BLETabCell.xib */; };
+		378E27671DC0A88C005095AD /* BLEModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 378E27661DC0A88C005095AD /* BLEModel.m */; };
+		378E276C1DC0B3F6005095AD /* dropdown2.png in Resources */ = {isa = PBXBuildFile; fileRef = 378E276A1DC0B3F6005095AD /* dropdown2.png */; };
+		378E27701DC0B93C005095AD /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = 378E276D1DC0B93C005095AD /* button.png */; };
+		378E27711DC0B93C005095AD /* led_off.png in Resources */ = {isa = PBXBuildFile; fileRef = 378E276E1DC0B93C005095AD /* led_off.png */; };
+		378E27721DC0B93C005095AD /* led_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 378E276F1DC0B93C005095AD /* led_on.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		00A04D8B1DD3269A00F8E2EB /* HomeViewCtrl.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HomeViewCtrl.xib; path = Util/HomeViewCtrl.xib; sourceTree = "<group>"; };
+		00A04D8D1DD5785800F8E2EB /* dropdown1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dropdown1.png; sourceTree = "<group>"; };
+		00A8743E1E01419F00A4EA15 /* btn_ble_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_ble_on.png; sourceTree = "<group>"; };
+		37381BE71DC2E7E900743226 /* btn_ble_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_ble_off.png; sourceTree = "<group>"; };
+		37381BE91DC2E7E900743226 /* button_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_normal.png; sourceTree = "<group>"; };
+		37381BEA1DC2E7E900743226 /* button_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_pressed.png; sourceTree = "<group>"; };
+		37381BEB1DC2E7E900743226 /* lamp_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lamp_off.png; sourceTree = "<group>"; };
+		37381BEC1DC2E7E900743226 /* lamp_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lamp_on.png; sourceTree = "<group>"; };
+		37381BED1DC2E7E900743226 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		3751BAF61DCAE37D00C5AF13 /* btn_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_bg.png; sourceTree = "<group>"; };
+		378E27381DC0A1C4005095AD /* BCBLEDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BCBLEDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		378E273C1DC0A1C4005095AD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		378E273E1DC0A1C4005095AD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		378E273F1DC0A1C4005095AD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		378E27471DC0A1C4005095AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		378E274A1DC0A1C4005095AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		378E274C1DC0A1C4005095AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		378E27521DC0A247005095AD /* HomeViewCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeViewCtrl.h; path = ../HomeViewCtrl.h; sourceTree = "<group>"; };
+		378E27531DC0A247005095AD /* HomeViewCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeViewCtrl.m; path = ../HomeViewCtrl.m; sourceTree = "<group>"; };
+		378E275B1DC0A2B9005095AD /* CTBLEManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTBLEManager.h; sourceTree = "<group>"; };
+		378E275C1DC0A2B9005095AD /* CTBLEManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTBLEManager.m; sourceTree = "<group>"; };
+		378E27601DC0A743005095AD /* BLETabCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLETabCell.h; sourceTree = "<group>"; };
+		378E27611DC0A743005095AD /* BLETabCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLETabCell.m; sourceTree = "<group>"; };
+		378E27621DC0A743005095AD /* BLETabCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BLETabCell.xib; sourceTree = "<group>"; };
+		378E27651DC0A88C005095AD /* BLEModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLEModel.h; sourceTree = "<group>"; };
+		378E27661DC0A88C005095AD /* BLEModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLEModel.m; sourceTree = "<group>"; };
+		378E276A1DC0B3F6005095AD /* dropdown2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dropdown2.png; sourceTree = "<group>"; };
+		378E276D1DC0B93C005095AD /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button.png; sourceTree = "<group>"; };
+		378E276E1DC0B93C005095AD /* led_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = led_off.png; sourceTree = "<group>"; };
+		378E276F1DC0B93C005095AD /* led_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = led_on.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		378E27351DC0A1C4005095AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		378E272F1DC0A1C4005095AD = {
+			isa = PBXGroup;
+			children = (
+				378E273A1DC0A1C4005095AD /* BCBLEDemo */,
+				378E27391DC0A1C4005095AD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		378E27391DC0A1C4005095AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				378E27381DC0A1C4005095AD /* BCBLEDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		378E273A1DC0A1C4005095AD /* BCBLEDemo */ = {
+			isa = PBXGroup;
+			children = (
+				378E273E1DC0A1C4005095AD /* AppDelegate.h */,
+				378E273F1DC0A1C4005095AD /* AppDelegate.m */,
+				378E27681DC0B3F6005095AD /* resource */,
+				378E27651DC0A88C005095AD /* BLEModel.h */,
+				378E27661DC0A88C005095AD /* BLEModel.m */,
+				378E27601DC0A743005095AD /* BLETabCell.h */,
+				378E27611DC0A743005095AD /* BLETabCell.m */,
+				378E27621DC0A743005095AD /* BLETabCell.xib */,
+				378E275A1DC0A2B9005095AD /* Util */,
+				378E27521DC0A247005095AD /* HomeViewCtrl.h */,
+				378E27531DC0A247005095AD /* HomeViewCtrl.m */,
+				00A04D8B1DD3269A00F8E2EB /* HomeViewCtrl.xib */,
+				378E27471DC0A1C4005095AD /* Assets.xcassets */,
+				378E27491DC0A1C4005095AD /* LaunchScreen.storyboard */,
+				378E274C1DC0A1C4005095AD /* Info.plist */,
+				378E273B1DC0A1C4005095AD /* Supporting Files */,
+			);
+			path = BCBLEDemo;
+			sourceTree = "<group>";
+		};
+		378E273B1DC0A1C4005095AD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				378E273C1DC0A1C4005095AD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		378E275A1DC0A2B9005095AD /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				378E275B1DC0A2B9005095AD /* CTBLEManager.h */,
+				378E275C1DC0A2B9005095AD /* CTBLEManager.m */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		378E27681DC0B3F6005095AD /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				00A8743E1E01419F00A4EA15 /* btn_ble_on.png */,
+				00A04D8D1DD5785800F8E2EB /* dropdown1.png */,
+				3751BAF61DCAE37D00C5AF13 /* btn_bg.png */,
+				37381BE71DC2E7E900743226 /* btn_ble_off.png */,
+				37381BE91DC2E7E900743226 /* button_normal.png */,
+				37381BEA1DC2E7E900743226 /* button_pressed.png */,
+				37381BEB1DC2E7E900743226 /* lamp_off.png */,
+				37381BEC1DC2E7E900743226 /* lamp_on.png */,
+				37381BED1DC2E7E900743226 /* logo.png */,
+				378E276D1DC0B93C005095AD /* button.png */,
+				378E276E1DC0B93C005095AD /* led_off.png */,
+				378E276F1DC0B93C005095AD /* led_on.png */,
+				378E276A1DC0B3F6005095AD /* dropdown2.png */,
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		378E27371DC0A1C4005095AD /* BCBLEDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 378E274F1DC0A1C4005095AD /* Build configuration list for PBXNativeTarget "BCBLEDemo" */;
+			buildPhases = (
+				378E27341DC0A1C4005095AD /* Sources */,
+				378E27351DC0A1C4005095AD /* Frameworks */,
+				378E27361DC0A1C4005095AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BCBLEDemo;
+			productName = BCBLEDemo;
+			productReference = 378E27381DC0A1C4005095AD /* BCBLEDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		378E27301DC0A1C4005095AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = holtek;
+				TargetAttributes = {
+					378E27371DC0A1C4005095AD = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = TL6F6HKELG;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 378E27331DC0A1C4005095AD /* Build configuration list for PBXProject "BCBLEDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 378E272F1DC0A1C4005095AD;
+			productRefGroup = 378E27391DC0A1C4005095AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				378E27371DC0A1C4005095AD /* BCBLEDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		378E27361DC0A1C4005095AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37381BF01DC2E7E900743226 /* button_normal.png in Resources */,
+				37381BEE1DC2E7E900743226 /* btn_ble_off.png in Resources */,
+				37381BF31DC2E7E900743226 /* lamp_on.png in Resources */,
+				00A04D8E1DD5785800F8E2EB /* dropdown1.png in Resources */,
+				3751BAF71DCAE37D00C5AF13 /* btn_bg.png in Resources */,
+				378E27701DC0B93C005095AD /* button.png in Resources */,
+				37381BF11DC2E7E900743226 /* button_pressed.png in Resources */,
+				00A8743F1E01419F00A4EA15 /* btn_ble_on.png in Resources */,
+				378E27641DC0A743005095AD /* BLETabCell.xib in Resources */,
+				378E274B1DC0A1C4005095AD /* LaunchScreen.storyboard in Resources */,
+				37381BF21DC2E7E900743226 /* lamp_off.png in Resources */,
+				00A04D8C1DD3269A00F8E2EB /* HomeViewCtrl.xib in Resources */,
+				378E27721DC0B93C005095AD /* led_on.png in Resources */,
+				378E27481DC0A1C4005095AD /* Assets.xcassets in Resources */,
+				37381BF41DC2E7E900743226 /* logo.png in Resources */,
+				378E27711DC0B93C005095AD /* led_off.png in Resources */,
+				378E276C1DC0B3F6005095AD /* dropdown2.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		378E27341DC0A1C4005095AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				378E27401DC0A1C4005095AD /* AppDelegate.m in Sources */,
+				378E27551DC0A247005095AD /* HomeViewCtrl.m in Sources */,
+				378E275F1DC0A2B9005095AD /* CTBLEManager.m in Sources */,
+				378E273D1DC0A1C4005095AD /* main.m in Sources */,
+				378E27631DC0A743005095AD /* BLETabCell.m in Sources */,
+				378E27671DC0A88C005095AD /* BLEModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		378E27491DC0A1C4005095AD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				378E274A1DC0A1C4005095AD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		378E274D1DC0A1C4005095AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Holtek Semiconductor (China) Inc (TL6F6HKELG)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Holtek Semiconductor (China) Inc (TL6F6HKELG)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = TL6F6HKELG;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "811c4df0-1842-48bf-bb2c-90703e2bd5fd";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		378E274E1DC0A1C4005095AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Holtek Semiconductor (China) Inc (TL6F6HKELG)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Holtek Semiconductor (China) Inc (TL6F6HKELG)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = TL6F6HKELG;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "811c4df0-1842-48bf-bb2c-90703e2bd5fd";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		378E27501DC0A1C4005095AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Holtek Semiconductor (China) Inc (TL6F6HKELG)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Holtek Semiconductor (China) Inc (TL6F6HKELG)";
+				DEVELOPMENT_TEAM = TL6F6HKELG;
+				INFOPLIST_FILE = BCBLEDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.holtek.BCBLEDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "811c4df0-1842-48bf-bb2c-90703e2bd5fd";
+				PROVISIONING_PROFILE_SPECIFIER = DisProfile_AppStore_BCBLEDemo;
+			};
+			name = Debug;
+		};
+		378E27511DC0A1C4005095AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Holtek Semiconductor (China) Inc (TL6F6HKELG)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Holtek Semiconductor (China) Inc (TL6F6HKELG)";
+				DEVELOPMENT_TEAM = TL6F6HKELG;
+				INFOPLIST_FILE = BCBLEDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.holtek.BCBLEDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "811c4df0-1842-48bf-bb2c-90703e2bd5fd";
+				PROVISIONING_PROFILE_SPECIFIER = DisProfile_AppStore_BCBLEDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		378E27331DC0A1C4005095AD /* Build configuration list for PBXProject "BCBLEDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				378E274D1DC0A1C4005095AD /* Debug */,
+				378E274E1DC0A1C4005095AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		378E274F1DC0A1C4005095AD /* Build configuration list for PBXNativeTarget "BCBLEDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				378E27501DC0A1C4005095AD /* Debug */,
+				378E27511DC0A1C4005095AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 378E27301DC0A1C4005095AD /* Project object */;
+}
